@@ -1,8 +1,8 @@
 name: Deploy React-Docker
-# on:
-#   push:
-#     branches:
-#       - master
+on:
+  push:
+    branches:
+      - master
  
 jobs:
   build:
